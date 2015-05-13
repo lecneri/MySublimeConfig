@@ -1,0 +1,89 @@
+// Place your settings in the file "User/Preferences.sublime-settings", which
+// overrides the settings in here.
+//
+// Settings may also be placed in file type specific options files, for
+// example, in Packages/Python/Python.sublime-settings for python files.
+{
+    // Note that the font_face and font_size are overridden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    "font_face": "Anonymous Pro",
+    "font_size": 13,
+
+    // Spacing between the gutter and the text
+    "margin": 2,
+
+    // Columns in which to display vertical rulers
+    "rulers": [100],
+
+    // Set to true to turn spell checking on by default
+    "spell_check": true,
+
+    // The number of spaces a tab is considered equal to
+    "tab_size": 3,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Word list to use for spell checking
+    "dictionary": ["Packages/Language - English/en_US.dic", "Packages/Dictionaries/Portuguese (Brazilian).dic"],
+
+    // Set to true to draw a border around the visible rectangle on the minimap.
+    // The color of the border will be determined by the "minimapBorder" key in
+    // the color scheme
+    "draw_minimap_border": true,
+
+    // Always visualise the viewport on the minimap, as opposed to only
+    // showing it on mouse over
+    "always_show_minimap_viewport": true,
+
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true,
+
+    // Valid values are "smooth", "phase", "blink" and "solid".
+    "caret_style": "smooth",
+
+    // Set to "none" to turn off drawing white space, "selection" to draw only the
+    // white space within the selection, and "all" to draw all white space
+    "draw_white_space": "all",
+
+
+    // Determines what character(s) are used to terminate each line in new files.
+    // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
+    // 'unix' (LF only).
+    "default_line_ending": "system",
+
+    // Controls if auto complete is shown when snippet fields are active.
+    // Only relevant if auto_complete_commit_on_tab is true.
+    "auto_complete_with_fields": true,
+
+    // Controls what happens when pressing the up key while the first item in
+    // the auto complete window is selected: if false, the window is hidden,
+    // otherwise the last item in the window is selected. Likewise for the
+    // down key when the last item is selected.
+    "auto_complete_cycle": true,
+
+    // By default, shift+tab will only unindent if the selection spans
+    // multiple lines. When pressing shift+tab at other times, it'll insert a
+    // tab character - this allows tabs to be inserted when tab_completion is
+    // enabled. Set this to true to make shift+tab always unindent, instead of
+    // inserting tabs.
+    "shift_tab_unindent": true,
+
+    // If true, the selected text will be copied into the find panel when it's
+    // shown.
+    // On OS X, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "find_selected_text": true,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,
+
+    // Display file encoding in the status bar
+    "show_encoding": true,
+
+    // Display line endings in the status bar
+    "show_line_endings": true,
+
+}
