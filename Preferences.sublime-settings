@@ -85,5 +85,14 @@
 
     // Display line endings in the status bar
     "show_line_endings": true,
+    "spell_check": true,
+    "tab_size": 3,
+    "translate_tabs_to_spaces": true,
+    "theme": "Material-Theme.sublime-theme",
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    "overlay_scroll_bars": "enabled",
+    "line_padding_top": 3,
+    "line_padding_bottom": 3,
+    "indent_guide_options": [ "draw_normal", "draw_active" ]
 
 }
